@@ -23,5 +23,5 @@ export default (request: VercelRequest, response: VercelResponse) =>
 		}
 	};
 
-	response.status(200).send("Serverless Function Test");
+	response.status(200).send(props.renderSvg());
 }
