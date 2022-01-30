@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
-		"module": "ES6",
-		"target": "ES2021",
+		"module": "nodenext",
+		"moduleResolution": "Node",
+		"target": "ES6",
 		"sourceMap": false
 	},
 	"exclude": [
