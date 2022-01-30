@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-export default (req: VercelRequest, res: VercelResponse) =>
+export default (request: VercelRequest, response: VercelResponse) =>
 {
 	const props = {
 		label: "First Hello World:",
@@ -23,5 +23,5 @@ export default (req: VercelRequest, res: VercelResponse) =>
 		}
 	};
 
-	return res.status(200).send(props.renderSvg());
+	response.status(200).send("Serverless Function Test");
 }
