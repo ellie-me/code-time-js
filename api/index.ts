@@ -1,7 +1,7 @@
-import DateTime from "luxon";
+import { DateTime } from "luxon";
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-export function handler(req: VercelRequest, res: VercelResponse)
+export default (req: VercelRequest, res: VercelResponse) =>
 {
 	const props = {
 		label: "First Hello World:",
