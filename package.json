@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eli-me/code-time-js.git"
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/eli-me/code-time-js/issues"
   },
-  "homepage": "https://github.com/eli-me/code-time-js#readme"
+  "homepage": "https://github.com/eli-me/code-time-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
 }
