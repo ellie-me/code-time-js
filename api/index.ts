@@ -23,5 +23,5 @@ export default (request: VercelRequest, response: VercelResponse) =>
 		}
 	};
 
-	response.status(200).send(props.renderSvg());
+	response.status(200).setHeader("Content-Type", "image/svg+xml").send(props.renderSvg());
 }
