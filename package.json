@@ -1,26 +1,26 @@
 {
   "name": "time-coding",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "private": true,
-  "main": "index.js",
   "type": "module",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eli-me/code-time-js.git"
+    "url": "git+https://github.com/ellie-me/code-time-js.git"
   },
-  "author": "Eli Menendez",
+  "author": "Eleonor Menendez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eli-me/code-time-js/issues"
+    "url": "https://github.com/ellie-me/code-time-js/issues"
   },
-  "homepage": "https://github.com/eli-me/code-time-js#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
+  "homepage": "https://github.com/ellie-me/code-time-js#readme",
   "dependencies": {
-    "@vercel/node": "^1.12.1",
-    "luxon": "^2.3.0"
+    "@vercel/node": "^5.3.6",
+    "luxon": "^3.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "@types/luxon": "^3.6.2"
   }
 }

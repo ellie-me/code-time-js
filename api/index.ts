@@ -12,9 +12,9 @@ export default async (request: VercelRequest, response: VercelResponse) =>
 
 		duration()
 		{
-			const secondsWhenIStartedCoding = 1180664350;
+			const secondsSinceIHaveWrittenHelloWorld = 1180664350;
 			const now = DateTime.now();
-			const dayStart = DateTime.fromSeconds(secondsWhenIStartedCoding);
+			const dayStart = DateTime.fromSeconds(secondsSinceIHaveWrittenHelloWorld);
 			return Math.round(now.diff(dayStart, 'days').toObject().days);
 		},
 		renderSvg()
